@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53583" started-at="2019-07-24T09:18:58Z" finished-at="2019-07-24T09:19:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53583" started-at="2019-07-24T09:18:58Z" finished-at="2019-07-24T09:19:51Z">
+      <class name="Btes.LoginBtes">
+        <test-method status="PASS" signature="initilize()[pri:0, instance:Btes.LoginBtes@101b7af]" name="initilize" is-config="true" duration-ms="6420" started-at="2019-07-24T09:18:51Z" finished-at="2019-07-24T09:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method status="PASS" signature="login()[pri:1, instance:Btes.LoginBtes@101b7af]" name="login" duration-ms="23393" started-at="2019-07-24T09:18:58Z" finished-at="2019-07-24T09:19:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="links()[pri:2, instance:Btes.LoginBtes@101b7af]" name="links" duration-ms="10974" started-at="2019-07-24T09:19:21Z" finished-at="2019-07-24T09:19:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- links -->
+        <test-method status="PASS" signature="readExcel()[pri:3, instance:Btes.LoginBtes@101b7af]" name="readExcel" duration-ms="676" started-at="2019-07-24T09:19:32Z" finished-at="2019-07-24T09:19:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readExcel -->
+        <test-method status="PASS" signature="addTobatch()[pri:4, instance:Btes.LoginBtes@101b7af]" name="addTobatch" duration-ms="18429" started-at="2019-07-24T09:19:33Z" finished-at="2019-07-24T09:19:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTobatch -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Btes.LoginBtes@101b7af]" name="close" is-config="true" duration-ms="0" started-at="2019-07-24T09:19:52Z" finished-at="2019-07-24T09:19:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Btes.LoginBtes -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

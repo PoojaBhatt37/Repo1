@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="OrangeHRMlive.LoginTest">
+      <methods>
+        <include name="login" />
+        <exclude name="links" />
+        <exclude name="add_userDetails" />
+        <exclude name="insertdata_fetch" />        
+        <exclude name="delete" />
+         <exclude name="deletedata_fetch" />
+        <exclude name="search" />
+           </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
